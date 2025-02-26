@@ -1,0 +1,60 @@
+#playButton {
+	position: absolute;
+	height: 70px;
+	width: 100px;
+	top: 160px;
+	left: 200px;
+	z-index: 6;
+}
+
+#toothy {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.enemy {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+#TitleCard {
+	position: absolute;
+	height: 300px;
+	width: 500px;
+	top: 0px;
+	left: 0px;
+	z-index: 5;
+	pointer-events: none;
+}
+#Land {
+	position: absolute;
+	height: 300px;
+	width: 500px;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	pointer-events: none;
+}
+#Background {
+	position: absolute;
+	height: 300px;
+	width: 500px;
+	top: 0px;
+	left: 0px;
+	z-index: -2;
+}
+#displayScore{
+    top:240px;
+    left:210px;
+    position: absolute;
+    opacity: 0;
+    z-index:6;
+}
+#myScore{
+	pointer-events: none;
+}
+#myHealth{
+	pointer-events: none;
+}

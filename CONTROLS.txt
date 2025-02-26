@@ -1,0 +1,4 @@
+left up - up
+left down - down
+a - collect health while in collision
+x - pause + show controls
